@@ -1,0 +1,14 @@
+{
+  "name": "template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "make-win": "electron-packager . template-app --platform=win32 --arch=x64 --overwrite --prune=true",
+    "make-mac": "electron-packager . template-app --platform=darwin --arch=x64 --overwrite --prune=true"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {}
+}
